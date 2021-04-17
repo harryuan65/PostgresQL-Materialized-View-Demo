@@ -4,6 +4,7 @@ require 'pg'
 require 'pry'
 require 'active_record'
 require 'faker'
+require 'scenic'
 
 ActiveRecord::Base.establish_connection(
   adapter: 'postgresql',
@@ -76,3 +77,5 @@ end
 
 puts "VideoWatchingHistory x #{vwh_size}: Took #{Time.now - start_at}s"
 puts 'Done.'
+
+# binding.pry
