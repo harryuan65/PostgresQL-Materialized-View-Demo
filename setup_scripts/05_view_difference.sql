@@ -20,10 +20,5 @@ select * from user_video_report_v where user_id=2;
 select * from user_video_report_mv where user_id=2;
 -- 2 |     1658 | Apocalypse Now   | 05:38:32 Refresh了，才有更新
 
-cronjob
-cron */30 * * * * psql -f refresh.sql
-
-refresh materialized view user_video_report_mv;
-refresh materialized view user_video_report_mv;
-refresh materialized view user_video_report_mv;
-refresh materialized view user_video_report_mv;
+-- cronjob
+-- cron */30 * * * * psql -f refresh.sql
