@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Have postgresql installed in your maching
+1. Have postgresql installed in your machine
 2. Run scripts
 
   ```bash
@@ -12,6 +12,5 @@
   ```
 
   If you want more seed data, you can run ruby script `bundle exec ruby dev.rb` for 20000 users, 10000 videos, 200000 video_watching_histories;
-
 3. List tables with `\d`
-4. Paste in 01_query.sql
+4. Paste in each `.sql` to see result and check difference
