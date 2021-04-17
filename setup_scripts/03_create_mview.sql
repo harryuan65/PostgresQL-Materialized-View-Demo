@@ -1,4 +1,4 @@
-create materialized view user_video_report as
+create materialized view user_video_report_mv as
 select vwh.user_id,
  v.id as video_id,
  v.name as video_name,
